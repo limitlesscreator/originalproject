@@ -1,0 +1,1063 @@
+
+
+*{
+    font-family: "Inter Tight", sans-serif;
+}
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #f3f4f6;
+}
+header {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 21px 40px;
+}
+
+header .login_btn {
+    width: 260px;
+    height: 60px;
+}
+
+.main {
+    background-image: url('../img/main_bg.png');
+    background-size: cover;
+}
+
+.main .main-text {
+    padding-top: 90px;
+}
+
+.main .main-form {
+    background-color: #C62828;
+    padding: 40px;
+    border-radius: 16px;
+    margin-bottom: 90px;
+}
+
+.main .main-form p {
+    color: #fff;
+}
+
+.main .main-form .form-head {
+    font-size: 24px;
+}
+
+.main .main-form form input {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.main .main-form form button {
+    background-color:  #C62828;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #fff;
+    margin-top: 40px;
+}
+
+.main .main-form .privacy {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.main .main-form .privacy a {
+    color: #fff;
+}
+
+
+
+.main h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.main .main-tab {
+    display: flex;
+    align-items: center;
+    background-image: url('../img/tab.png');
+    background-position: center center;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    min-height: 210px;
+    padding: 20px;
+}
+
+.main .main-tab p {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.service {
+    padding: 50px 0;
+    background-image: url('../img/service-bg.png');
+    background-repeat: no-repeat;
+}
+
+.service h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.service .service-call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.service .service-call div {
+    margin: 0 10px;
+}
+
+.service .service-tabs {
+    background-image: url('../img/tab-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding: 50px 40px 40px;
+    color:#fff;
+}
+
+.service .service-tabs p {
+    font-size: 48px;
+    color:#fff;
+}
+
+.service .service-tabs .service-tabs-list {
+    margin-top: 40px;
+}
+
+.service .service-tabs button{
+    width: 50%;
+    height: 60px;
+    background-color: #172245;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 27px;
+}
+
+.service .service-small-tab {
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 426px;
+}
+
+.service .service-small-tab .tab-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.service .service-small-tab .spacer-box {
+    height: 350px;
+}
+
+.service .service-small-tab button {
+    border-radius: 8px;
+    border: 1px solid #C62828;
+    color: #C62828;
+    width: 100%;
+    min-height: 60px;
+}
+
+.sale .srv-container {
+    margin-top: 145px;
+}
+
+.sale {
+    background-image: url('../img/sale-bg.png');
+    background-position: calc(50% + 140px) center;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+
+@media screen and (min-width: 1921px) {
+    .sale {
+        background-position: calc(50% + 130px) center;
+
+    }
+}
+
+.sale .sale-header {
+    font-weight: 400;
+    color: #fff;
+    font-size: 48px;
+}
+
+.sale .sale-text {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.sale button {
+    width: 100%;
+    height: 60px;
+    background-color: #C62828;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.sale .sale-size {
+    color: #fff;
+    margin-top: 40px;
+}
+
+.stage {
+    background-image: url('../img/stage-bg.png');
+    background-position: center 325px;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.stage h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.stage .stage-text {
+    text-align: center;
+}
+
+.stage .stage-tabs {
+    margin-top: 10px;
+    margin-bottom: 305px;
+}
+
+.stage .stage-tabs img {
+    margin-top: 34px;
+}
+
+.stage .stage-tabs .stage-title {
+    margin-top: 60px;
+    font-size: 24px;
+}
+
+.stage .stage-tabs-2 {
+    margin-top: -170px;
+}
+
+.stage .stage-tabs-2 .stage-title {
+    margin-top: 60px;
+    font-size: 24px;
+}
+
+.stage .stage-first {
+    background-image: url('../img/st-first-bg.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.stage .stage-first-title {
+    font-size: 24px;
+}
+
+.stage .stage-first button {
+    width: 100%;
+    height: 60px;
+    background-color: #C62828;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.stage .stage-first-subtitle {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.stage .stage-first-phone {
+    font-size: 20px;
+}
+
+.map {
+    background-image: url('../img/map-bg.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    padding: 60px 60px 950px 60px;
+}
+
+.map .map-top-title {
+    font-size: 20;
+    text-transform: uppercase;
+}
+
+.map .map-title {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.map .map-txt {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.map .map-button button {
+    width: 310px;
+    height: 60px;
+    background-color: #C62828;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.price h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.price .price-row {
+    padding: 40px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.price .price-title {
+    font-weight: 700;
+    color: #172245;
+    font-size: 20px;
+}
+
+.price .price-txt {
+    color: #697496;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.price .price-num {
+    text-align: right;
+    font-size: 24px;
+    color: #C62828;
+
+}
+
+.faq {
+    padding: 60px 0;
+    background-color: #F6F7F8;
+    border-radius: 64px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq .accordion {
+    padding: 0 30px;
+}
+
+.faq .accordion {
+    margin-top: 60px;
+}
+
+.faq .accordion-button {
+    background-color: #F6F7F8;
+    padding: 20px 0;
+}
+
+.faq .accordion-body {
+    background-color: #F6F7F8;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.faq .accordion-item {
+    background-color: #F6F7F8;
+    padding-top: 60px;
+    border: none;
+    padding: 30px 0px;
+}
+
+.contact {
+    padding: 120px 0;
+}
+
+.contact .contact-title {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.contact .contact-content {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact .contact-item {
+    margin-bottom: 40px;
+}
+
+.contact .callbeck {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.contact .callbeck p {
+    display: block;
+    margin: 0;
+}
+
+.contact .callbeck img {
+    margin-left: 10px;
+}
+
+.contact .contact-map {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #172245;
+    padding: 39px 0;
+}
+
+
+footer .footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+footer .service-call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer .service-call div {
+    margin: 0 5px;
+}
+
+footer .adress-footer {
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+}
+
+footer .adress-footer img {
+    margin-right: 10px;
+}
+
+footer .footer-contact {
+    text-align: right;
+    color: #fff;
+}
+
+footer .footer-contact ul li {
+    font-size: 12px;
+}
+
+footer .footer-contact .phone {
+    font-size: 20px;
+}
+
+footer .footer-contact .footer-cb {
+    font-size: 12px;
+    text-decoration: underline;
+
+}
+
+footer .footer-contact ul,
+footer .footer-contact p {
+    margin: 0;
+    list-style-position: inside
+}
+
+.bottom-line {
+    padding: 20px 0;
+}
+
+.bottom-line a {
+    color: #172245;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bottom-line .copy {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bottom-line .partner {
+    text-align: right;
+}
+
+.main_page {
+    background: url(../img/bg-head.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header-nav {
+    padding: 40px 0;
+}
+
+.header-nav .breadcrumbs {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav .prev a{
+    color: #C62828;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header-nav .homelink {
+    color: #17224533;
+    padding-right: 20px;
+}
+
+.header-nav img {
+    padding-right: 20px;
+}
+
+.meta-box {
+    padding: 40px 0;
+}
+
+.meta-box h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.meta-box .sorting {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.meta-box select {
+    padding: 16px 20px;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-left: 20px;
+    color: red;
+}
+
+.news-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+     margin: 10px;
+}
+
+.news-item img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.news-item span {   
+    display: block;
+    font-size: 14px;
+    color: #697496;
+    margin-top: 20px;
+}
+
+.news-item p {
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #F9F9FA;
+    color: #172245;
+    border-radius: 8px;
+}
+
+.news-item button {
+    width: 100%;
+    color: #C62828;
+    border: 1px solid #C62828;
+    border-radius: 8px;
+    padding: 22px 0;
+    background-color: #fff;
+}
+
+.main-picture {
+    color: #fff;
+    background-image: url(../img/article-pic.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    margin-top: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 80px;
+    width: 120%;
+}
+
+.content .article-text {
+    padding: 60px 0;
+}
+
+.dostavka {
+    margin: 60px 0;
+    background-image: url(../img/d-line.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    font-size: 24px;
+}
+
+.dostavka .first-line {
+    padding-top: 88px;
+}
+
+.dostavka .second-line {
+    padding-top: 270px;
+}
+
+.tipovaya-content {
+    min-height: 1000px;
+}
+
+.modal-header {
+    background-color: #C62828;
+    color: #fff;
+}
+
+.modal button {
+    background-color: #C62828;
+    color: #fff;
+    border: none;
+}
+
+.modal button:hover {
+    background-color: #fff;
+    outline: 1px solid #C62828;
+    color: #C62828;
+}
+
+.vykup_icon {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-block {
+    margin: 40px 0;
+}
+
+.text-block {
+    display: flex;
+    align-items: center;
+}
+
+.transpot-block {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.transpot-block img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: auto;
+}
+
+
+.sale-vykup {
+    padding-top: 40px;
+    margin-top: -20px;
+}
+
+
+
+.vykup_main {
+    background-image: url('../img/vykyp_bg.png');
+    background-position: top right;
+}
+
+@media screen and (max-width: 1531px) {
+.vykup_page .service h2{
+    font-size: 40px;
+}
+}
+
+@media screen and (max-width: 1441px) {
+    .service .service-small-tab {
+        height: 370px;
+    }
+
+    .service .service-tabs .service-tabs-list {
+        margin-top: 20px;
+    }
+
+    .service .service-tabs p {
+        font-size: 30px;
+    }
+
+    .stage {
+        background-size: contain;
+    }
+    .stage .stage-tabs-2 {
+        margin-top: -225px;
+    }
+
+    .map {
+        background-image: url(../img/bg_not.png);
+        background-size: contain;
+    }
+
+    .sale .sale-header {
+        font-size: 40px;
+    }
+
+    .service .service-tabs {
+        padding: 50px 100px 40px;
+    }
+}
+
+
+@media screen and (max-width: 1350px) {
+    .vykup_page .service h2{
+        font-size: 36px;
+    }
+    }
+
+
+@media screen and (max-width: 1320px) {
+.stage .stage-tabs-2 {
+    margin-top: -254px;
+}
+}
+@media screen and (max-width: 1253px) {
+    .vykup_page .service h2{
+        font-size: 30px;
+    }
+    }
+
+@media screen and (max-width: 1200px) {
+.stage .stage-tabs-2 {
+    margin-top: -297px;
+}
+
+.service .service-tabs {
+    padding:  50px 27px 40px;
+}
+
+}
+
+@media screen and (max-width: 1120px) {
+    .stage .stage-tabs-2 {
+        margin-top: -322px;
+    }
+}
+
+@media screen and (max-width: 1107px) {
+    .vykup_page .service h2{
+        font-size: 24px;
+    }
+    }
+
+@media screen and (max-width: 992px) {
+    .main h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .main .main-tab p {
+        margin-top: 17px;
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        
+    }
+
+    .main .main-tab {
+        background-size: 50%;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .service h2 {
+        text-align: center;
+    }
+
+    .service .service-call {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .sale {
+        padding: 0;
+        background-position: 30% center;
+        padding: 11px;
+    }
+
+    .sale .sale-header {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .stage {
+        background: none;
+    }
+
+    .stage .stage-first {
+        background-size: cover;
+        background-position: center center;
+        border-radius: 16px;
+    }
+
+    .stage img {
+        display: block;
+        margin: auto;
+    }
+
+    .stage p {
+        text-align: center;
+    }
+
+    .stage .stage-tabs {
+        margin-bottom: 322px;
+    }
+
+    .stage .stage-tabs-2 img {
+        margin-top: 34px;
+    }
+
+    footer .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    footer .footer-logo div {
+        display: block;
+        margin: auto;
+    }
+
+    footer .adress-footer,
+    footer .service-call {    
+        justify-content: center;
+    }
+
+    footer .footer-contact {
+        text-align: center;
+
+    }
+    
+    footer .footer-contact ul {
+        padding: 0;
+    }
+
+    footer .adress-footer {
+        margin-bottom: 20px;
+    }
+
+    footer .footer-contact {
+        margin-top: 20px;
+    }
+
+    .bottom-line,
+    .bottom-line .partner {
+        text-align: center;
+    }
+
+    .bottom-line .copy {
+        margin-top: 9px;
+    }
+
+    .dostavka {
+        background: none;
+    }
+
+    .dostavka .first-line div {
+        padding-top: 10px;
+    }
+    .dostavka .second-line div {
+        padding-top: 10px;
+    }
+
+    .dostavka .first-line {
+        padding-top: 10px;
+    }
+    
+    .dostavka .second-line {
+        padding-top: 10px;
+    }
+
+    .service .service-tabs {
+        padding:  50px 98px 40px;
+    }
+
+    .service .service-tabs {
+        padding: 50px 58px 40px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .main h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .main .main-tab p {
+        margin-top: 17px;
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        
+    }
+
+    .main .main-tab {
+        background-size: contain;
+        justify-content: center;
+    }
+
+    .sale {
+        background-position: 35% center;
+    }
+
+    .sale button {
+        margin-top: 9px;
+    }
+
+    .sale .srv-container {
+        margin-top: 133px;
+    }
+
+    .service .service-tabs p {
+        font-size: 20px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .service .service-tabs .service-tabs-list {
+        margin: 0;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .service .service-tabs button {
+        margin-top: 18px;
+    }
+
+    .service .service-small-tab .spacer-box {
+        height: 35px;
+    }
+
+    .service .service-small-tab {
+        height: 260px;
+    }
+
+    .service .col-md-6:last-child .service-small-tab:last-child {
+        margin-top: 27px;
+    }
+
+    .meta-box .sorting {
+        justify-content: center;
+    }
+
+    
+    .meta-box h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-nav {
+        text-align: center;
+    }
+    .header-nav .breadcrumbs {
+        padding: 20px 0;
+    }
+
+    .map {
+        background-image: url('../img/bg_mob.png');
+        background-size: cover;
+    }
+
+    .map .map-button button {
+        width: 100%;
+    }
+
+    .map .map-txt {
+        font-size: 16px;
+    }
+
+    .service .service-tabs button {
+        width: 100%;
+    }
+
+    .vykup_page .service h2{
+        font-size: 1.5em;
+    }
+
+    .contact .contact-content {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main .main-tab p {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .service .service-tabs {
+        text-align: center;
+    }
+
+    .service .col-md-6 .service-small-tab {
+        margin-top: 27px;
+    }
+
+    .sale .srv-container {
+        margin-top: 147px;
+        margin-bottom: 63px;
+    }
+
+    .map .map-title {
+        font-size: 20px;
+    }
+
+    .contact .contact-item {
+        text-align: center;
+    }
+
+    .contact .callbeck {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .service .service-tabs {
+        padding: 50px 16px 40px;
+    }
+}
+
